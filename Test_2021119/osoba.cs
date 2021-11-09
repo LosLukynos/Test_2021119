@@ -2,19 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Test_2021119 //GitHub LosLukynos
+namespace Test_2021119
 {
     internal class osoba
     {
         private int vlozeno;
-        private string text;
-        private int v;
-
         public string Jmeno { get; }
         public int Stav { get; }
         public int MaximalniStav { get; }
         public int Vlozeno { get => vlozeno; }
-
 
         public osoba(string jmeno, int maximalniStav)
         {
